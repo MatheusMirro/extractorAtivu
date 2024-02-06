@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Hibernate 5.6.15.Final -->
+<!--
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence
+                                 https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+-->
+<!-- Hibernate 5.2.11.Final -->
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                                 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+    <persistence-unit name="myPU" transaction-type="RESOURCE_LOCAL">
+        <!-- This is required to be spec compliant, Hibernate however supports auto-detection even in JSE.
+        <class>com.ativucontrol.fjtco_du_extractor.models.Billings</class>
+        <class>com.ativucontrol.fjtco_du_extractor.models.BillingsTotals</class>
+        <class>com.ativucontrol.fjtco_du_extractor.models.BillingsDetailsRaws</class>
+        <class>com.ativucontrol.fjtco_du_extractor.models.BillingsDetails</class>
+        <class>com.ativucontrol.fjtco_du_extractor.models.BillingsDetailsPlans</class>
+        <class>com.ativucontrol.fjtco_du_extractor.models.BillingsDetailsExtras</class>
+        <class>com.ativucontrol.fjtco_du_extractor.models.BillingsDetailsServices</class>
+        -->
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="${javax.persistence.jdbc.driver}"/>
+            <property name="jakarta.persistence.jdbc.url" value="${javax.persistence.jdbc.url}"/>
+            <property name="jakarta.persistence.jdbc.user" value="${javax.persistence.jdbc.user}"/>
+            <property name="jakarta.persistence.jdbc.password" value="${javax.persistence.jdbc.password}"/>
+
+            <!-- Scan for annotated classes and Hibernate mapping XML files -->
+            <property name="hibernate.archive.autodetection" value="class, hbm"/>
+            <property name="hibernate.dialect" value="${hibernate.dialect}"/>
+            <property name="hibernate.hbm2ddl.auto" value="${hibernate.hbm2ddl.auto}"/>
+            <property name="hibernate.show_sql" value="${hibernate.show_sql}"/>
+            <property name="hibernate.format_sql" value="${hibernate.show_sql}"/>
+            <property name="hibernate.use_sql_comments" value="${hibernate.show_sql}"/>
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,18 @@
+database:
+  active: h2
+  profile:
+    h2:
+      driver: org.h2.Driver
+      dialect: org.hibernate.dialect.H2Dialect
+      user: sa
+      password:
+      jdbcTemplate: jdbc:h2:file:C:/Users/mirro/OneDrive/Área de Trabalho/ExtractorTest/extractor/h2db/in/h2db
+      fileExtension: .db
+
+    firebird:
+      driver: org.firebirdsql.jdbc.FBDriver
+      dialect: org.hibernate.dialect.FirebirdDialect
+      user: SYSDBA
+      password: masterkey
+      jdbcTemplate: jdbc:firebird://localhost:3050/%s?charSet=utf-8
+      fileExtension: .fdb
