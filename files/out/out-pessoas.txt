@@ -1,0 +1,237 @@
+Nome: John Doe 
+Idade: 30 
+Endereço: Rua Exemplo, 123 
+Cidade: Cidade Exemplo 
+CEP: 12345-678 
+Email: john.doe@example.com 
+Telefone: (12) 3456-7890 
+ 
+Histórico Profissional: 
+1. Cargo: Desenvolvedor de Software 
+   Empresa: ABC Tech 
+   Período: Janeiro de 2018 - Presente 
+ 
+2. Cargo: Estagiário de TI 
+   Empresa: XYZ Solutions 
+   Período: Maio de 2016 - Dezembro de 2017 
+ 
+Educação: 
+- Bacharelado em Ciência da Computação 
+  Universidade Exemplo 
+  Conclusão: Dezembro de 2015 
+ 
+--- 
+ 
+Nome: Jane Smith 
+Idade: 28 
+Endereço: Av. Amostra, 456 
+Cidade: Cidade Amostra 
+CEP: 56789-012 
+Email: jane.smith@example.com 
+Telefone: (34) 5678-9012 
+ 
+Histórico Profissional: 
+1. Cargo: Analista de Marketing 
+   Empresa: Marketing Solutions 
+   Período: Fevereiro de 2017 - Presente 
+ 
+2. Cargo: Assistente de Marketing 
+   Empresa: Ad Agency 
+   Período: Junho de 2015 - Janeiro de 2017 
+ 
+Educação: 
+- Bacharelado em Marketing 
+  Universidade Amostra 
+  Conclusão: Maio de 2015 
+ 
+--- 
+ 
+Nome: Maria Silva 
+Idade: 35 
+Endereço: Travessa Amostra, 789 
+Cidade: Cidade Exemplo 
+CEP: 98765-432 
+Email: maria.silva@example.com 
+Telefone: (78) 9012-3456 
+ 
+Histórico Profissional: 
+1. Cargo: Engenheira Civil 
+   Empresa: Construções Solidas 
+   Período: Março de 2016 - Presente 
+ 
+2. Cargo: Estagiária de Engenharia 
+   Empresa: Projetos Inovadores 
+   Período: Janeiro de 2014 - Fevereiro de 2016 
+ 
+Educação: 
+- Bacharelado em Engenharia Civil 
+  Universidade Exemplo 
+  Conclusão: Maio de 2013 
+ 
+--- 
+ 
+Nome: Carlos Oliveira 
+Idade: 28 
+Endereço: Alameda Teste, 567 
+Cidade: Cidade Teste 
+CEP: 54321-098 
+Email: carlos.oliveira@example.com 
+Telefone: (56) 7890-1234 
+ 
+Histórico Profissional: 
+1. Cargo: Analista de Finanças 
+   Empresa: Finanças Inteligentes 
+   Período: Setembro de 2018 - Presente 
+ 
+2. Cargo: Estagiário de Contabilidade 
+   Empresa: Conta Certa 
+   Período: Maio de 2016 - Agosto de 2018 
+ 
+Educação: 
+- Bacharelado em Ciências Contábeis 
+  Universidade Teste 
+  Conclusão: Dezembro de 2015 
+ 
+--- 
+ 
+Nome: Gabriela Santos 
+Idade: 32 
+Endereço: Rua Demonstração, 987 
+Cidade: Cidade Exemplo 
+CEP: 76543-210 
+Email: gabriela.santos@example.com 
+Telefone: (98) 7654-3210 
+ 
+Histórico Profissional: 
+1. Cargo: Gerente de Recursos Humanos 
+   Empresa: Talentos em Ação 
+   Período: Janeiro de 2015 - Presente 
+ 
+2. Cargo: Analista de RH 
+   Empresa: Seleções Certas 
+   Período: Agosto de 2012 - Dezembro de 2014 
+ 
+Educação: 
+- Bacharelado em Psicologia 
+  Universidade Exemplo 
+  Conclusão: Maio de 2012 
+ 
+--- 
+ 
+Nome: Felipe Oliveira 
+Idade: 25 
+Endereço: Avenida Exemplo, 654 
+Cidade: Cidade Exemplo 
+CEP: 54321-567 
+Email: felipe.oliveira@example.com 
+Telefone: (45) 6789-0123 
+ 
+Histórico Profissional: 
+1. Cargo: Desenvolvedor Web 
+   Empresa: Tech Solutions 
+   Período: Fevereiro de 2019 - Presente 
+ 
+2. Cargo: Estagiário de Desenvolvimento 
+   Empresa: Código Inovador 
+   Período: Julho de 2017 - Janeiro de 2019 
+ 
+Educação: 
+- Bacharelado em Sistemas de Informação 
+  Universidade Exemplo 
+  Conclusão: Dezembro de 2016 
+ 
+--- 
+ 
+Nome: Isabela Lima 
+Idade: 29 
+Endereço: Praça Teste, 123 
+Cidade: Cidade Teste 
+CEP: 87654-321 
+Email: isabela.lima@example.com 
+Telefone: (23) 4567-8901 
+ 
+Histórico Profissional: 
+1. Cargo: Analista de Marketing Digital 
+   Empresa: Digital Trends 
+   Período: Março de 2017 - Presente 
+ 
+2. Cargo: Coordenadora de Marketing 
+   Empresa: Marketing Avançado 
+   Período: Setembro de 2015 - Fevereiro de 2017 
+ 
+Educação: 
+- Bacharelado em Marketing 
+  Universidade Teste 
+  Conclusão: Maio de 2015 
+ 
+--- 
+ 
+Nome: Lucas Oliveira 
+Idade: 27 
+Endereço: Rua Amostra, 876 
+Cidade: Cidade Amostra 
+CEP: 98765-432 
+Email: lucas.oliveira@example.com 
+Telefone: (67) 8901-2345 
+ 
+Histórico Profissional: 
+1. Cargo: Engenheiro Eletricista 
+   Empresa: Energia Pura 
+   Período: Janeiro de 2018 - Presente 
+ 
+2. Cargo: Estagiário de Engenharia 
+   Empresa: Eletrônica Inovadora 
+   Período: Maio de 2016 - Dezembro de 2017 
+ 
+Educação: 
+- Bacharelado em Engenharia Elétrica 
+  Universidade Amostra 
+  Conclusão: Dezembro de 2015 
+ 
+--- 
+ 
+Nome: Amanda Silva 
+Idade: 31 
+Endereço: Alameda Teste, 456 
+Cidade: Cidade Teste 
+CEP: 54321-890 
+Email: amanda.silva@example.com 
+Telefone: (78) 9012-3456 
+ 
+Histórico Profissional: 
+1. Cargo: Psicóloga Clínica 
+   Empresa: Consultório Próprio 
+   Período: Fevereiro de 2019 - Presente 
+ 
+2. Cargo: Analista de Recursos Humanos 
+   Empresa: RH Expertise 
+   Período: Setembro de 2015 - Janeiro de 2019 
+ 
+Educação: 
+- Mestrado em Psicologia 
+  Universidade Teste 
+  Conclusão: Maio de 2015 
+ 
+--- 
+ 
+Nome: Rodrigo Santos 
+Idade: 29 
+Endereço: Travessa Exemplo, 321 
+Cidade: Cidade Exemplo 
+CEP: 76543-210 
+Email: rodrigo.santos@example.com 
+Telefone: (98) 7654-3210 
+ 
+Histórico Profissional: 
+1. Cargo: Analista de Finanças 
+   Empresa: Finanças Inteligentes 
+   Período: Janeiro de 2018 - Presente 
+ 
+2. Cargo: Estagiário de Contabilidade 
+   Empresa: Conta Certa 
+   Período: Maio de 2016 - Dezembro de 2017 
+ 
+Educação: 
+- Bacharelado em Ciências Contábeis 
+  Universidade Exemplo 
+  Conclusão: Dezembro de 2015 

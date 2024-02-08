@@ -22,8 +22,10 @@ public class Main {
       );
       userInfoParser.parseUserData();
 
-      List<List<String>> data = BillingsExporter.generateData();
-      BillingsExporter.writeCsv(data, outCsvFilePath);
+      BillingsExporter billingsExporter = new BillingsExporter();
+      List<List<String>> data = billingsExporter.generateData();
+
+      billingsExporter.writeCsv(data, outCsvFilePath);
     } catch (Exception e) {
       e.printStackTrace();
     }
