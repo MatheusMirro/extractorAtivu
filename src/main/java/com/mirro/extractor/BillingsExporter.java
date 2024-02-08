@@ -22,10 +22,30 @@ public class BillingsExporter extends Database {
     }
 
     try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileCsv))) {
+      // Adicionar títulos
+      List<String> titles = Arrays.asList(
+        "ID",
+        "NOME",
+        "IDADE",
+        "ENDEREÇO",
+        "CIDADE",
+        "CEP",
+        "E-MAIL",
+        "TELEFONE"
+      );
+      writer.write(String.join(",", titles));
+      writer.newLine();
+
+      // Adicionar dados dos usuários
       for (List<String> row : data) {
         StringBuilder csvRow = new StringBuilder();
         for (int i = 0; i < row.size(); i++) {
-          csvRow.append(row.get(i));
+          // Verifica se o conteúdo da coluna contém uma vírgula
+          if (row.get(i).contains(",")) {
+            csvRow.append("\"").append(row.get(i)).append("\"");
+          } else {
+            csvRow.append(row.get(i));
+          }
           if (i < row.size() - 1) {
             csvRow.append(",");
           }
@@ -33,7 +53,7 @@ public class BillingsExporter extends Database {
         writer.write(csvRow.toString());
         writer.newLine();
       }
-      System.out.println("Dados escritos no CSV com sucesso!");
+      System.out.println("CSV file written successfully!");
     } catch (IOException e) {
       e.printStackTrace();
     }
@@ -62,17 +82,6 @@ public class BillingsExporter extends Database {
           personalData.getPhone()
         );
         data.add(rowData);
-
-        // Print data to console
-        System.out.println("ID: " + personalData.getId());
-        System.out.println("Nome: " + personalData.getName());
-        System.out.println("Idade: " + personalData.getAge());
-        System.out.println("Endereço: " + personalData.getAddress());
-        System.out.println("Cidade: " + personalData.getCity());
-        System.out.println("CEP: " + personalData.getZipCode());
-        System.out.println("E-mail: " + personalData.getEmail());
-        System.out.println("Telefone: " + personalData.getPhone());
-        System.out.println("----------------------------------------");
       }
     } finally {
       closeDatabase();
